@@ -1,0 +1,60 @@
+@import "styles/utils";
+
+.cardConttainer {
+  position: relative;
+  margin: 0px 5px;
+  width: 70px;
+  // background: rgb(252, 230, 213);
+  border-radius: 8px;
+  content: "";
+  overflow: hidden;
+
+  perspective: 200px;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transform: translate3d(0, 0, 0);
+
+  @include media(">tablet") {
+    width: 135px;
+  }
+
+  .label {
+    font-weight: bold;
+    font-size: 7px;
+    line-height: 9px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: black;
+    margin-top: 9px;
+
+    @include media(">tablet") {
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: 6px;
+      margin-top: 16px;
+    }
+  }
+
+  .counts {
+    position: relative;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "Vidaloka";
+    line-height: 67px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: black;
+    z-index: 1;
+    margin-bottom: 4px;
+    overflow: hidden;
+
+    @include media(">tablet") {
+      font-weight: bold;
+      font-size: 80px;
+      letter-spacing: -2.4px;
+      line-height: 120px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+    }
+  }
+}

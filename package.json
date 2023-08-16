@@ -1,0 +1,35 @@
+{
+  "name": "weddingrsv",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "bootstrap": "^5.2.3",
+    "embla-carousel-react": "^7.1.0",
+    "include-media": "^1.4.10",
+    "jquery": "^3.6.4",
+    "mongodb": "^4.12.1",
+    "next": "13.0.4",
+    "react": "18.2.0",
+    "react-awesome-reveal": "^4.2.3",
+    "react-data-table-component": "^7.5.3",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "sass": "^1.56.1",
+    "scss": "^0.2.4",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.4"
+  }
+}

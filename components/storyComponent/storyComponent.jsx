@@ -16,6 +16,10 @@ const Story = styled.div`
     display: none;
   }
 
+  h1 {
+    font-family: "Script";
+  }
+
   @media (min-width: 768px) {
     .storyDate {
       align-items: center;
@@ -70,7 +74,7 @@ const StoryComponent = ({ webSiteSetting }) => {
       <div className="container-fluid py-5" id="story">
         <div className="container pt-5 pb-3">
           <div className="section-title position-relative text-center">
-            <h1 className="font-secondary display-4">Our Love Story</h1>
+            <h1 className="display-4">Our Love Story</h1>
             <i className="far fa-heart text-dark"></i>
           </div>
           <div className="container timeline position-relative p-0">

@@ -15,7 +15,7 @@ const HomeCom = styled.div`
   .main {
     background-size: cover;
     min-height: 100vh;
-    min-width: 100vw;
+    max-width: 100vw;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     flex-direction: column;

@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import {
   AboutComponent,
   Contact,
+  Details,
   EventsComp,
   Family,
   Gallery,
@@ -41,7 +42,7 @@ export default function Home({ calRemaining, webSiteSetting, remainingTime }) {
           mheight={"auto"}
           iheight={"auto"}
           maxHeight={"70vh"}
-          inputWidth={"auto"}
+          inputWidth={"200px"}
         />
       </>
     );
@@ -49,8 +50,8 @@ export default function Home({ calRemaining, webSiteSetting, remainingTime }) {
 
   return (
     <div className="mainContainer">
-      {/* <button></button> */}
-      {/* <div className="door left"></div>
+      {/* <button>open</button>
+      <div className="door left"></div>
       <div className="door right"></div> */}
       <Head>
         <title>{webSiteSetting.title} - Home</title>
@@ -73,13 +74,15 @@ export default function Home({ calRemaining, webSiteSetting, remainingTime }) {
         remainingTime={remainingTime}
         showRSVPModal={showRSVPModal}
       />
-      {/* <AboutComponent webSiteSetting={webSiteSetting} /> */}
-      {/* <StoryComponent webSiteSetting={webSiteSetting} /> */}
+      <AboutComponent webSiteSetting={webSiteSetting} />
+      <StoryComponent webSiteSetting={webSiteSetting} />
+      <Details webSiteSetting={webSiteSetting} />
+
       {/* <Gallery webSiteSetting={webSiteSetting} /> */}
       {/* <Family webSiteSetting={webSiteSetting} /> */}
       {/* <EventsComp webSiteSetting={webSiteSetting} /> */}
       {/* <RSVP webSiteSetting={webSiteSetting} /> */}
-      {/* <Contact webSiteSetting={webSiteSetting} /> */}
+      <Contact webSiteSetting={webSiteSetting} />
     </div>
   );
 }

@@ -13,3 +13,4 @@ export { default as CusButton } from "./cusButton/cusButton";
 export { default as MusicWave } from "./musicWave/musicWave";
 export { default as Modal } from "./modal/modal";
 export { default as Loading } from "./loading/loading";
+export { default as Details } from "./details/details";

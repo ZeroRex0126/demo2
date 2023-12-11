@@ -458,6 +458,7 @@ const RSVP = ({ webSiteSetting, mheight, iheight, inputWidth, maxHeight }) => {
               display: "flex",
               justifyContent: "center",
               flexDirection: "column",
+              alignItems: "center",
             }}
           >
             <Fade direction="up" duration={1000} triggerOnce={true}>
